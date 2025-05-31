@@ -77,14 +77,16 @@ export default function Home() {
 
         <div className="text-center mt-8 opacity-60">
           <div className="inline-flex items-center gap-2 text-blue-500">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L3 7L12 12L21 7L12 2Z" />
-              <path d="M3 17L12 22L21 17" />
-              <path d="M3 12L12 17L21 12" />
-            </svg>
+            <img
+                src="/logo.png"
+                alt="Akcent Academy"
+                className="w-5 h-5 object-cover rounded-full"
+            />
             <span className="text-sm font-medium">Akcent Academy</span>
           </div>
         </div>
+
+
       </div>
     </main>
   )

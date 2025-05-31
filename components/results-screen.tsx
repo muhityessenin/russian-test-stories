@@ -31,14 +31,15 @@ export default function ResultsScreen({ score, onRestart }: ResultsScreenProps) 
           className="bg-white rounded-3xl shadow-2xl border border-gray-100 p-8 max-w-md w-full text-center"
       >
         <div className="mb-6">
-          <div
-              className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="white">
-              <path d="M12 2L3 7L12 12L21 7L12 2Z"/>
-              <path d="M3 17L12 22L21 17"/>
-              <path d="M3 12L12 17L21 12"/>
-            </svg>
+          <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+            <img
+                src="/logo.png"
+                alt="Akcent Academy"
+                className="w-16 h-16 rounded-full object-contain"
+            />
           </div>
+
+
           <h1 className="text-2xl font-bold text-gray-800 mb-2">Тест аяқталды!</h1>
           <p className="text-gray-600">Сіздің нәтижеңіз:</p>
         </div>
@@ -81,16 +82,18 @@ export default function ResultsScreen({ score, onRestart }: ResultsScreenProps) 
         </div>
 
 
-        <div className="mt-8 text-center opacity-60">
+        <div className="text-center mt-12 opacity-60">
           <div className="inline-flex items-center gap-2 text-blue-500">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L3 7L12 12L21 7L12 2Z"/>
-              <path d="M3 17L12 22L21 17"/>
-              <path d="M3 12L12 17L21 12"/>
-            </svg>
+            <img
+                src="/logo.png"
+                alt="Akcent Academy"
+                className="w-5 h-5 object-contain rounded-full"
+            />
             <span className="text-sm font-medium">Akcent Academy</span>
           </div>
         </div>
+
+
       </motion.div>
     </main>
   )

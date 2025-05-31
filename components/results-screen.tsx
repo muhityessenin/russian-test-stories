@@ -60,7 +60,7 @@ export default function ResultsScreen({ score, onRestart }: ResultsScreenProps) 
 
         <div className="space-y-4">
           <motion.a
-              href="https://wa.me/77001234567?text=Сәлеметсіз бе! Мен тесттен өттім, бонусымды алғым келеді."
+              href="https://wa.me/77079894019?text=%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%82%D0%B0%D1%80%D1%8B%D0%BC%D0%B4%D1%8B%20%D0%B0%D0%BB%D0%B0%D0%BC%D1%8B%D0%BD"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full block text-center py-4 px-6 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
